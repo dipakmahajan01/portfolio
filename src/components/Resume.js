@@ -17,7 +17,7 @@ const Resume = () => {
               <p className="section-subheading text-muted"></p>
             </div>
             <div className="text-center">
-              <Button variant="primary" href="" target="_blank" rel="noopener noreferrer">Download Resume</Button>
+              <Button variant="primary" href="/resume (3).pdf" target="_blank" rel="noopener noreferrer">Download Resume</Button>
             </div>
           </Col>
         </Row>
