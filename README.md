@@ -77,7 +77,13 @@ The website is fully responsive with breakpoints:
 ### Vercel (Recommended)
 1. Push your code to GitHub
 2. Connect your repository to Vercel
-3. Deploy with zero configuration
+3. Vercel will detect this is a Vite app. If not, set the framework to "Other" and set the build command to `npm run build` and the output directory to `dist`.
+4. Alternatively, you can deploy from the CLI:
+
+```bash
+npx vercel login
+npx vercel --prod
+```
 
 ### Netlify
 1. Build the project: `npm run build`
