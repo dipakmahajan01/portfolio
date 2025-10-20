@@ -45,15 +45,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-4">
-            {/* OpenToWork Button */}
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded-full text-sm font-medium transition-colors duration-200"
-            >
-              <span>📍</span>
-              <span>OpenToWork</span>
-            </motion.button>
+            {/* Logo or Brand placeholder - removed OpenToWork button */}
+            <div className="text-white font-semibold">dipak.dev</div>
           </div>
 
           {/* Desktop Navigation */}

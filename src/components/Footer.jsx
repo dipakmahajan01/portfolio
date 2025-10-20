@@ -76,16 +76,7 @@ const Footer = () => {
               Full-Stack Developer passionate about creating amazing web experiences. 
               Let's build something incredible together!
             </p>
-            <div className="flex items-center space-x-2">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-3 py-1 rounded-full text-sm font-medium transition-colors duration-200"
-              >
-                <span>📍</span>
-                <span>OpenToWork</span>
-              </motion.button>
-            </div>
+            {/* OpenToWork badge removed */}
           </motion.div>
 
           {/* Quick Links */}
